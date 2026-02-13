@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main style={{ width: '100vw', height: '100vh', position: 'relative', overflow: 'hidden', backgroundColor: '#000' }}>
       <Aurora
-        colorStops={["#3A29FF", "#FF2957", "#FFB829"]}
+        colorStops={["#d666ff","#9983e2","#1fddea"]}
         blend={0.5}
         amplitude={1.0}
       />
@@ -28,10 +28,10 @@ export default function Home() {
           zIndex: 10,
           margin: 0
         }}>
-          Ralph Bryan Vertudez
+          Hi! This is a test.
         </h1>
         <p style={{ color: 'rgba(255,255,255,0.7)', marginTop: '10px', zIndex: 10 }}>
-          Currently under development
+          Work in progress...
         </p>
       </div>
     </main>
