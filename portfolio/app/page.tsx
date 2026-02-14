@@ -52,8 +52,6 @@ export default function Home() {
             gap={40}
             hoverSpeed={30}
             scaleOnHover
-            fadeOut
-            fadeOutColor="#ffffff2f"
             ariaLabel="Technology partners"
           />
         </div>
