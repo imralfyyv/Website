@@ -47,13 +47,11 @@ export default function Home() {
             gap={40}
             hoverSpeed={30}
             scaleOnHover
-            fadeOut
-            fadeOutColor="#000000" // Matches your black background
             ariaLabel="Technology partners"
           />
         </div>
 
-        <p style={{ color: 'rgba(255,255,255,0.7)', marginTop: '20px' }}>
+        <p style={{ color: 'rgb(255, 255, 255)', marginTop: '20px' }}>
           Work in progress...
         </p>
       </div>
