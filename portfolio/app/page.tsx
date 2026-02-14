@@ -2,16 +2,20 @@
 
 import Aurora from "@/components/Aurora"; 
 import LogoLoop from '@/components/LogoLoop';
-import { SiReact, SiNextdotjs, SiTypescript, SiTailwindcss, SiFigma} from 'react-icons/si';
+import { SiReact, SiNextdotjs, SiCisco, SiTypescript, SiPython, SiFigma, SiLinux, SiDocker, SiGithub, SiCplusplus} from 'react-icons/si';
 
 export default function Home() {
   // Move your data inside the Home component
   const techLogos = [
     { node: <SiReact color="#61DAFB"/>, title: "React", href: "https://react.dev" },
+    { node: <SiCisco color="#0bf10b" />, title: "Cisco", href: "#" },
     { node: <SiNextdotjs color="#FFFFFF"/>, title: "Next.js", href: "https://nextjs.org" },
-    { node: <SiTypescript color="#3178C6"/>, title: "TypeScript", href: "https://www.typescriptlang.org" },
-    { node: <SiTailwindcss color="#06B6D4"/>, title: "Tailwind CSS", href: "https://tailwindcss.com" },
-    { node: <SiFigma color="#f21ef2" />, title: "Figma", href: "https://www.figma.com" },
+    { node: <SiPython color="#3776AB" />, title: "Python", href: "https://www.python.org" },
+    { node: <SiCplusplus color="#ff026c" />, title: "C++", href: "https://isocpp.org" },
+    { node: <SiTypescript color="#33c8db"/>, title: "TypeScript", href: "https://www.typescriptlang.org" },
+    { node: <SiLinux color="#FCC624" />, title: "Linux", href: "#" },
+    { node: <SiFigma color="#cf4288" />, title: "Figma", href: "https://www.figma.com" },
+    { node: <SiGithub color="#400ff0" />, title: "GitHub", href: "#" },
   ];
 
   return (
